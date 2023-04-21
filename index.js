@@ -106,16 +106,6 @@ app.get('/', function (req, res) {
 })
 
 
-
-
-
-
-
-
-
-
-
-
 app.listen(PORT, async () => {
     await cunnectDb()
     console.log(`http://localhost${PORT}`)
